@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="IceHome" width={120} height={32} className="w-auto h-6" />
+              <span className="text-foreground text-xl font-semibold tracking-tight">IceHome</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Монтаж, обслуживание и продажа сплит-систем. Работаем с выгодой для клиента — без переплат и скрытых платежей.
