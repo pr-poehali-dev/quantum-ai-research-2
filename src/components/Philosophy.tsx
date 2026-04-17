@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Честная цена",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Никаких скрытых платежей и накруток. Вы платите только за реальную работу и оборудование — без лишних наценок.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Профессиональный монтаж",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Наши специалисты работают аккуратно и точно. Установка по всем нормам — чтобы кондиционер служил долго и без проблем.",
   },
   {
-    title: "Естественная динамика",
+    title: "Гарантия на работы",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Мы уверены в качестве своей работы. Даём гарантию на монтаж и берём ответственность за результат.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Скорость и надёжность",
+    description: "Приезжаем в удобное для вас время, выполняем работу в срок. Без опозданий и лишней суеты.",
   },
 ]
 
@@ -53,17 +53,17 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Почему выбирают нас</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Ваша выгода —
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>наш приоритет</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
               <img
                 src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
+                alt="Монтаж кондиционера"
                 className="opacity-90 relative z-10 w-auto"
               />
             </div>
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Мы не просто устанавливаем кондиционеры — мы создаём комфортный климат в вашем доме или офисе. Работаем так, чтобы вы получили максимум за свои деньги.
             </p>
 
             {philosophyItems.map((item, index) => (
