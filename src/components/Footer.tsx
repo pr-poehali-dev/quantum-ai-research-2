@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="КлиматСервис" width={120} height={32} className="w-auto h-6" />
+              <img src="/images/hously-logo.svg" alt="IceHome" width={120} height={32} className="w-auto h-6" />
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Монтаж, обслуживание и продажа сплит-систем. Работаем с выгодой для клиента — без переплат и скрытых платежей.
@@ -70,7 +70,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 КлиматСервис. Все права защищены.</p>
+          <p>© 2025 IceHome. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
